@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Report</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+
+    <script src="https://kit.fontawesome.com/6f6ee668bf.js" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="src/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <form id="search-form">
+            <input id="info-form" type="text" placeholder="Search" />
+            <input type="submit" value="🔎" />
+        </form>
+        <br />
+
+        <h1>LISBON</h1>
+        <h2>DECEMBER 6</h2>
+        <h3>18:28H</h3>
+
+        <p class="weather">
+            Sunny
+        </p>
+        <p class="temperature">10ºc</p>
+
+        <div class="row">
+            <hr />
+            <div class="col">
+                Today <br />
+                <i class="fas fa-sun"></i><br />
+                13ºc
+            </div>
+            <div class="col">
+                Monday <br />
+                <i class="fas fa-cloud-sun"></i><br />
+                14ºc
+            </div>
+            <div class="col">
+                Tuesday <br />
+                <i class="fas fa-cloud-showers-heavy"></i><br />
+                13ºc
+            </div>
+            <div class="col">
+                Wednesday <br />
+                <i class="fas fa-cloud-showers-heavy"></i> <br />
+                13ºc
+            </div>
+            <div class="col">
+                Thursday <br />
+                <i class="fas fa-cloud-showers-heavy"></i> <br />
+                12ºc
+            </div>
+        </div>
+    </div>
+
+    <script src="src/index.js"></script>
+</body>
+
+</html>

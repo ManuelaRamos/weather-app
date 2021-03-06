@@ -1,0 +1,73 @@
+form {
+  position: fixed;
+  top: 30px;
+  width: 37%;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 30px;
+  position: fixed;
+  top: 100px;
+  left: 700px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 18px;
+  position: fixed;
+  top: 130px;
+  left: 700px;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 35px;
+  position: fixed;
+  top: 142px;
+  left: 700px;
+}
+
+.container {
+  margin-top: 20px;
+  width: 40%;
+  height: 720px;
+  background-image: url(https://images.unsplash.com/photo-1548266652-99cf27701ced?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D);
+}
+
+.md-form [type="text"]:focus:not([readonly]) {
+  border-bottom: 1px solid #868686;
+  box-shadow: 0 1px 0 0 #868686;
+}
+.md-form [type="text"] {
+  border-bottom: 1px solid #868686;
+  box-shadow: 0 1px 0 0 #868686;
+}
+
+.weather {
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 70px;
+  position: fixed;
+  top: 250px;
+  left: 652px;
+}
+
+.temperature {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 90px;
+  position: fixed;
+  top: 300px;
+  left: 652px;
+}
+
+.row {
+  width: 40%;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+  top: 600px;
+}
